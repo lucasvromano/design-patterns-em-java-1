@@ -1,0 +1,20 @@
+package br.com.alura.loja.pedido;
+
+import java.time.LocalDate;
+
+import br.com.alura.loja.orcamento.Orcamento;
+
+public class Pedido {
+	
+	private String cliente;
+	private LocalDate data;
+	private Orcamento orcamento;
+	
+	public Pedido (String cliente, LocalDate data, Orcamento orcamento) {
+		super();
+		this.cliente = cliente;
+		this.data = data;
+		this.orcamento = orcamento;
+	}
+
+}
