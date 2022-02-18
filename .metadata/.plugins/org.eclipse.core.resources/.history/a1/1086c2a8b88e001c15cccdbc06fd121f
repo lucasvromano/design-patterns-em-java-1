@@ -1,7 +1,0 @@
-package br.com.alura.loja.imposto.copy;
-
-public enum TipoImposto {
-
-	ICMS,
-	ISS;
-}
